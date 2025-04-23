@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --font-family-lato: "Lato", sans-serif;
+    --thin: 100;
+    --light: 300;
+    --regular: 400;
+    --bold: 700;
+    --black: 900;
+    --normal: normal;
+    --italic: italic;
+    --font-size-xs: 0.875rem;
+    --font-size-sm: 1rem;
+    --font-size-md: 1.25rem;
+    --font-size-lg: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 4rem;
+
+    --color-primary: #1A237E;
+    --color-primary-light: #3949AB;
+    --color-primary-lighter: #5C6BC0;
+
+    --color-secondary: #E8EAF6;
+    --color-accent: #FF6F00;
+
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray: #9E9E9E;
+
+
+}
+
+body {
+    font-family: var(--font-family-lato);
+    font-size: var(--font-size-md);
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 35px;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(170, 170, 170, 0.453);
+    position: fixed;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+}
+
+header .safe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.safe h3 {
+    font-size: var(--font-size-xs);
+    font-weight: var(--regular);
+    color: var(--color-gray);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+/* side-menu */
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    background-color: var(--color-primary, #1A237E);
+    color: white;
+    padding-top: 1rem;
+}
