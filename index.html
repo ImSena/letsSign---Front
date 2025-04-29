@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LetsSign | É simples assinar</title>
-    <link rel="stylesheet" href="./public/assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./public/assets/css/style.css">
 </head>
 
 <body>
@@ -33,11 +33,11 @@
         <div class="sidebar-icons"></div>
 
         <div class="sidebar-inner">
-            <a class="items" href="/view/assinar.html">
+            <a class="items" href="/view/assinar-step1.html">
                 <img src="./public/assets/icons/documents_signed_menu.svg" alt="" class="icones-side">
                 <p>Assinar como assinante</p>
             </a>
-    
+
             <a href="#" class="items">
                 <img src="./public/assets/icons/download_hover_menu.svg" alt="" class="icones-side">
                 <p>Baixar documento</p>
@@ -70,7 +70,12 @@
                 <button id="btn-assinar">assinar como assinante</button>
             </div>
         </div>
+
+        <div class="pdf-container">
+            <iframe src="./public/docs/documento.pdf"></iframe>
+        </div>
     </main>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"

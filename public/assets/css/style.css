@@ -28,6 +28,8 @@
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-gray: #9E9E9E;
+    --color-purple: #8654ff;
+    --color-green: #2eda8a;
 
 
 }
@@ -55,6 +57,7 @@ header {
     left: 0;
     right: 0;
     z-index: 10;
+    background-color: #fff;
 }
 
 header .logo {
@@ -183,6 +186,7 @@ main.document{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .document .title{
@@ -234,4 +238,142 @@ main.document{
 .document .title .actions #btn-assinar:hover{
     background: #2cca80;
     transition: .4s all;
+}
+
+.document .pdf-container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 2rem;
+}
+
+.document .pdf-container iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+/* step 1 */
+
+.step{
+    margin-left: 16%;
+    margin-top: 80px;
+    padding: 2rem;
+    width: calc(100% - 16%);
+}
+
+.step .title h2{
+    font-size: var(--font-size-lg);
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.step p{
+    font-size: var(--font-size-sm);
+    width: 50%;
+    color: var(--color-gray);
+    font-weight: 400;
+}
+
+.step p span{
+    color: var(--color-purple);
+    font-weight: 500;
+}
+
+.step .steps{
+    margin-top: 3rem;
+    width: 60%;
+}
+
+.step .steps form small{
+    font-size: .7rem;
+    color: var(--color-purple);
+
+}
+
+.step .steps .buttons{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step .steps .buttons #next{
+    background-color: var(--color-green);
+    color: #fff;
+    border-color: transparent;
+}
+
+.step .steps .buttons #next:hover{
+    background-color: #2cca80;
+}
+
+.step .steps .buttons button{
+    background-color: transparent;
+    border: 1px solid var(--color-gray);
+    padding: .5rem 2rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+}
+
+.step .steps .buttons button:hover{
+    background-color: #e2e2e274;
+}
+
+.step .steps .termos{
+    font-size: .7rem;
+    text-align: right;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.step .steps .title{
+    margin-bottom: 1rem;
+}
+
+.step .steps .title h3{
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: var(--font-size-sm);
+}
+
+.step .steps .field{
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: var(--font-size-sm);
+}
+
+.step .steps .field label{
+    color: var(--color-primary);
+}
+
+.step .steps .field input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--color-purple);
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    color: #919191;
+}
+
+.step .steps .field input:focus{
+    outline: none;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.modal-body a{
+    background-color: var(--color-green);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 7rem;
+    font-size: var(--font-size-sm);
+}
+
+.modal-body a:hover{
+    background-color: #2cca80;
 }
