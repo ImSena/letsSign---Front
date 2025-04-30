@@ -358,6 +358,79 @@ main.document{
     outline: none;
 }
 
+#step2 .content-signature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#step2 .content-signature .choosen{
+display: flex;
+gap: 2rem;
+justify-content: center;
+}
+
+#step2 .content-signature .choosen .choosed h3{
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+}
+
+#step2 .content-signature .choosen .choosed.active {
+    color: var(--color-purple);
+    border-bottom: 1px solid;
+    padding: 0 1.5rem;
+}
+
+#step2 .content-signature .signature{
+    margin-top: 2rem;
+}
+
+#step2 .content-signature .signature #signature-write{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#step2 .content-signature .signature #signature-write input{
+    border: 0;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--color-purple);
+}
+
+#step2 .content-signature .signature #signature-write input:focus{
+    outline: none;
+}
+
+#step2 .content-signature .signature #signature-write .choose-style{
+    display: flex;
+    justify-content: space-between;
+}
+
+#step2 .content-signature .signature #signature-write .choose-style button{
+    background-color: transparent;
+    border: none;
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    color: var(--color-gray);
+    padding-bottom: 1rem;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+#step2 .content-signature .signature #signature-write .choose-style button.active{
+    color: var(--color-purple);
+    border-bottom: 1px solid var(--color-purple);
+}
+
+#step2 .content-signature .signature #signature-write .container-write{
+    border: 1px solid var(--color-gray);
+    width: 100%;
+    height: 100px;
+    border-radius: 12px;
+}
+
 .modal-body{
     display: flex;
     flex-direction: column;
@@ -376,4 +449,20 @@ main.document{
 
 .modal-body a:hover{
     background-color: #2cca80;
+}
+
+.content .identity{
+    width: 200px;
+    border-radius: 1rem;
+    background-color: #d9d9d96b;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.content .identity.active{
+    background-color: var(--color-green);
+    color: #fff;
 }
