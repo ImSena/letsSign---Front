@@ -100,7 +100,7 @@ header .safe {
     border: none;
 }
 
-.sidebar .sidebar-icons{
+.sidebar .sidebar-icons {
     background-color: #353470;
     width: 24%;
     height: 100%;
@@ -109,63 +109,64 @@ header .safe {
     top: 0;
 }
 
-.sidebar .sidebar-inner{
+.sidebar .sidebar-inner {
     position: absolute;
     width: 100%;
     left: 0;
 }
 
-.sidebar .sidebar-inner a:hover{
+.sidebar .sidebar-inner a:hover {
     background-color: #4d4d9c;
     color: var(--color-contrast);
     transition: .4s ease-out all;
 }
 
-.sidebar .items{
+.sidebar .items {
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 0.9rem 1.5rem;
 }
 
-.sidebar .items p{
+.sidebar .items p {
     margin: 0;
 }
 
-.sidebar .items i{
+.sidebar .items i {
     color: var(--color-contrast);
 }
 
-.sidebar .items img{
+.sidebar .items img {
     width: 22px;
 }
 
-.items .icones-side{
+.items .icones-side {
     margin-right: 2.5rem;
 }
 
-.sidebar .items#information p{
-    color: var(--color-contrast);   
+.sidebar .items#information p {
+    color: var(--color-contrast);
     font-weight: var(--bold);
 }
 
-.sidebar .items#information  p, #information span{
+.sidebar .items#information p,
+#information span {
     font-size: .7rem !important;
     margin-bottom: 0;
 }
 
-.sidebar a{
+.sidebar a {
     color: white;
     text-decoration: none;
     font-size: var(--font-size-sm);
 }
 
-.sidebar span{
+.sidebar span {
     font-size: var(--font-size-sm);
     opacity: 0.8;
 }
 
-.sidebar .sidebar-logo{
+.sidebar .sidebar-logo {
     position: absolute;
     width: 40%;
     bottom: 2rem;
@@ -173,12 +174,12 @@ header .safe {
     transform: translateX(-50%);
 }
 
-.sidebar .sidebar-logo img{
+.sidebar .sidebar-logo img {
     width: 100%;
 }
 
 
-main.document{
+main.document {
     margin-left: 16%;
     margin-top: 80px;
     padding: 2rem;
@@ -189,31 +190,31 @@ main.document{
     flex-direction: column;
 }
 
-.document .title{
+.document .title {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.document .title h2{
+.document .title h2 {
     font-size: var(--font-size-lg);
     font-weight: 400;
     color: var(--color-text);
 }
 
-.document .title .actions{
+.document .title .actions {
     display: flex;
     gap: 1rem;
 }
 
-.document .title .actions button{
+.document .title .actions button {
     background-color: transparent;
     border-radius: 4rem;
     padding: .2rem 1.5rem;
     border: none;
 }
 
-.document .title .actions #btn-download{
+.document .title .actions #btn-download {
     background: #FFF;
     border: solid 1px #8654FF;
     color: #8654FF;
@@ -221,92 +222,92 @@ main.document{
     font-size: var(--font-size-xs);
 }
 
-.document .title .actions #btn-download:hover{
+.document .title .actions #btn-download:hover {
     color: #fff;
     background-color: #8654FF;
     transition: .4s all;
 }
 
-.document .title .actions #btn-assinar{
+.document .title .actions #btn-assinar {
     background: #2eda8a;
-    
+
     color: #fff;
     font-weight: 400;
     font-size: var(--font-size-xs);
 }
 
-.document .title .actions #btn-assinar:hover{
+.document .title .actions #btn-assinar:hover {
     background: #2cca80;
     transition: .4s all;
 }
 
-.document .pdf-container{
+.document .pdf-container {
     width: 100%;
     height: 100vh;
     margin-top: 2rem;
 }
 
-.document .pdf-container iframe{
+.document .pdf-container iframe {
     width: 100%;
     height: 100vh;
 }
 
 /* step 1 */
 
-.step{
+.step {
     margin-left: 16%;
     margin-top: 80px;
     padding: 2rem;
     width: calc(100% - 16%);
 }
 
-.step .title h2{
+.step .title h2 {
     font-size: var(--font-size-lg);
     font-weight: 400;
     color: var(--color-text);
 }
 
-.step p{
+.step p {
     font-size: var(--font-size-sm);
     width: 50%;
     color: var(--color-gray);
     font-weight: 400;
 }
 
-.step p span{
+.step p span {
     color: var(--color-purple);
     font-weight: 500;
 }
 
-.step .steps{
+.step .steps {
     margin-top: 3rem;
     width: 60%;
 }
 
-.step .steps form small{
+.step .steps form small {
     font-size: .7rem;
     color: var(--color-purple);
 
 }
 
-.step .steps .buttons{
+.step .steps .buttons {
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
-.step .steps .buttons #next{
+.step .steps .buttons #next {
     background-color: var(--color-green);
     color: #fff;
     border-color: transparent;
 }
 
-.step .steps .buttons #next:hover{
+.step .steps .buttons #next:hover {
     background-color: #2cca80;
 }
 
-.step .steps .buttons button{
+.step .steps .buttons button {
     background-color: transparent;
     border: 1px solid var(--color-gray);
     padding: .5rem 2rem;
@@ -314,38 +315,38 @@ main.document{
     border-radius: 1rem;
 }
 
-.step .steps .buttons button:hover{
+.step .steps .buttons button:hover {
     background-color: #e2e2e274;
 }
 
-.step .steps .termos{
+.step .steps .termos {
     font-size: .7rem;
     text-align: right;
     width: 100%;
     margin-top: 4rem;
 }
 
-.step .steps .title{
+.step .steps .title {
     margin-bottom: 1rem;
 }
 
-.step .steps .title h3{
+.step .steps .title h3 {
     color: var(--color-gray);
     font-weight: 400;
     font-size: var(--font-size-sm);
 }
 
-.step .steps .field{
+.step .steps .field {
     width: 100%;
     margin-bottom: 1rem;
     font-size: var(--font-size-sm);
 }
 
-.step .steps .field label{
+.step .steps .field label {
     color: var(--color-primary);
 }
 
-.step .steps .field input{
+.step .steps .field input {
     width: 100%;
     border: none;
     border-bottom: 1px solid var(--color-purple);
@@ -354,23 +355,23 @@ main.document{
     color: #919191;
 }
 
-.step .steps .field input:focus{
+.step .steps .field input:focus {
     outline: none;
 }
 
-#step2 .content-signature{
+#step2 .content-signature {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#step2 .content-signature .choosen{
-display: flex;
-gap: 2rem;
-justify-content: center;
+#step2 .content-signature .choosen {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 }
 
-#step2 .content-signature .choosen .choosed h3{
+#step2 .content-signature .choosen .choosed h3 {
     font-size: var(--font-size-sm);
     text-transform: uppercase;
 }
@@ -381,17 +382,17 @@ justify-content: center;
     padding: 0 1.5rem;
 }
 
-#step2 .content-signature .signature{
+#step2 .content-signature .signature {
     margin-top: 2rem;
 }
 
-#step2 .content-signature .signature #signature-write{
+#step2 .content-signature .signature #signature-write {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-#step2 .content-signature .signature #signature-write input{
+#step2 .content-signature .signature #signature-write input {
     border: 0;
     text-align: center;
     font-size: var(--font-size-sm);
@@ -399,16 +400,16 @@ justify-content: center;
     border-bottom: 1px solid var(--color-purple);
 }
 
-#step2 .content-signature .signature #signature-write input:focus{
+#step2 .content-signature .signature #signature-write input:focus {
     outline: none;
 }
 
-#step2 .content-signature .signature #signature-write .choose-style{
+#step2 .content-signature .signature #signature-write .choose-style {
     display: flex;
     justify-content: space-between;
 }
 
-#step2 .content-signature .signature #signature-write .choose-style button{
+#step2 .content-signature .signature #signature-write .choose-style button {
     background-color: transparent;
     border: none;
     font-size: var(--font-size-sm);
@@ -419,25 +420,25 @@ justify-content: center;
     padding-left: 12px;
 }
 
-#step2 .content-signature .signature #signature-write .choose-style button.active{
+#step2 .content-signature .signature #signature-write .choose-style button.active {
     color: var(--color-purple);
     border-bottom: 1px solid var(--color-purple);
 }
 
-#step2 .content-signature .signature #signature-write .container-write{
+#step2 .content-signature .signature #signature-write .container-write {
     border: 1px solid var(--color-gray);
     width: 100%;
     height: 100px;
     border-radius: 12px;
 }
 
-.modal-body{
+.modal-body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.modal-body a{
+.modal-body a {
     background-color: var(--color-green);
     text-align: center;
     color: #fff;
@@ -447,11 +448,11 @@ justify-content: center;
     font-size: var(--font-size-sm);
 }
 
-.modal-body a:hover{
+.modal-body a:hover {
     background-color: #2cca80;
 }
 
-.content .identity{
+.content .identity {
     width: 200px;
     border-radius: 1rem;
     background-color: #d9d9d96b;
@@ -462,7 +463,81 @@ justify-content: center;
     font-size: 5rem;
 }
 
-.content .identity.active{
+.content .identity.active {
     background-color: var(--color-green);
     color: #fff;
+}
+
+.buttons-action {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.buttons-action p{
+    background-color: var(--color-green);
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+}
+
+.buttons-cenarios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-cenarios button{
+    background-color: transparent;
+    border-radius: 12px;
+    font-size: var(--font-size-sm);
+    padding: 6px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border: 1px solid var(--color-gray)
+}
+
+.buttons-cenarios button#next{
+    background-color: var(--color-green);
+    color: #fff;
+    border: 1px solid;   
+}
+
+.cenario2 h3{
+    color: var(--color-green);
+}
+
+.voice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voice img{
+    width: 30%;
+    height: 10%;
+}
+
+.microphone{
+    background-color: var(--color-green);
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+
+.microphone:hover{
+    background-color: #2cca80;
 }
