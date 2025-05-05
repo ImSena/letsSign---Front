@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let step = 1;
+    let step = 0;
 
     const step1 = document.getElementById('step1');
     const step2 = document.getElementById('step2');
@@ -40,6 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
             step1.style.display = 'block';
             progressbar.style.width = "33%";
             document.querySelector("#desc").style.display = "block";
+        }
+
+        if(step === 1){
+            window.history.back();
         }
 
         if(step > 1){
