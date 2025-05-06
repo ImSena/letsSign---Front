@@ -46,9 +46,18 @@
             </div>
         </div>
 
-        <div class="buttons-action">
+        <div class="upload-file mb-4 mt-5 text-center">
+            <input type="file" id="fileInput" class="form-control w-50 m-auto">
+        </div>
+
+        <div class="buttons-action" style="display: none;" id="successMessage">
             <p>Inserido com suceso! <i class="fa-solid fa-circle-check"></i></p>
         </div>
+
+        <div class="buttons-action" style="display: none;" id="camera">
+            <p style="background-color: #78aeff;">Abrir Câmera <i class="fa-solid fa-camera"></i></p>
+        </div>
+
 
         <div class="buttons-cenarios">
             <button id="back">voltar</button>
@@ -60,6 +69,23 @@
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
     <script src="../public/assets/js/actionsButtons.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fileInput = document.getElementById('fileInput');
+            const successMessage = document.getElementById('successMessage');
+            const upload = document.querySelector(".upload-file");
+            const camera = document.querySelector("#camera");
+        
+            fileInput.addEventListener('change', function() {
+                if (fileInput.files.length > 0) {
+                    successMessage.style.display = 'flex';
+                    upload.style.display = 'none';
+                    camera.style.display = 'flex';
+                }
+            });
+        });
+        </script>
 </body>
 
 </html>
