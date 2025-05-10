@@ -563,3 +563,24 @@ canvas{
     border: 1px solid var(--color-gray);
     border-radius: 12px;
 }
+
+main.document .title > span{
+    font-size: var(--font-size-sm);
+    color: var(--color-gray);
+}
+
+main.document .title > #information{
+    display: flex;
+    font-size: var(--font-size-xs);
+}
+
+main.document .title > #information i{
+    margin-right: 5px;
+    margin-top: 3px;
+    color: var(--color-contrast);
+    font-size: 16px !important;
+}
+
+main.document .title > #information p{
+    color: var(--color-contrast);
+}
