@@ -4,8 +4,6 @@ Este projeto tem como objetivo demonstrar novas soluções de validação de ass
 
 ---
 
----
-
 ## 🚀 Demonstração
 
 Acesse a demonstração do projeto:
@@ -24,7 +22,4 @@ Acesse a demonstração do projeto:
 
 ---
 
-## 🎨 Estilo e Tipografia
-
-### 🎨 Paleta de Cores
 
