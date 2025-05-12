@@ -4,16 +4,6 @@ Este projeto tem como objetivo demonstrar novas soluções de validação de ass
 
 ---
 
-## 📌 Índice
-
-- [🚀 Demonstração](#-demonstração)
-- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [🎨 Estilo e Tipografia](#-estilo-e-tipografia)
-- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
-- [📦 Instalação e Uso](#-instalação-e-uso)
-- [📷 Capturas de Tela](#-capturas-de-tela)
-- [📄 Licença](#-licença)
-
 ---
 
 ## 🚀 Demonstração
